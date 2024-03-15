@@ -108,6 +108,10 @@ a{
     background-color: #15F5BA;
 }
 
+.btnContateCursos:hover{
+    background-color: #15F5BA;
+}
+
 .conhecimentos{
     display: flex;
     width: 1550px;
@@ -202,5 +206,79 @@ a{
 
     .btnContateCursos{
         margin-left: 675px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .cabecalho{
+        width: 60vh;
+    }
+
+    .apresentacao{
+        width: 850px;
+        height: 500px;
+    }
+
+    .conhecimentos{
+        width: 850px;
+    }
+
+    .lateral{
+        margin-top: -500px;
+        height: 850px;
+    }
+}
+
+@media screen and (max-width: 2000px){
+    .cabecalho{
+        width: 166.8vh;
+    }
+}
+
+@media screen and (max-width: 736px){
+    .cabecalho{
+        width: 57vh;
+    }
+
+    .apresentacao{
+        width: 350px;
+        height: 600px;
+        font-size: small;
+    }
+
+    .btnContate{
+        margin-left: 30px;
+    }
+
+    .btnContateCursos{
+        margin-left: 30px;
+    }
+
+    .conhecimentos{
+        width: 350px;
+        height: 1700px;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .lateral{
+        float: none;
+        margin: auto;
+        width: 350px;
+        height: 400px;
+    }
+
+    .cursos{
+        margin: auto;
+        width: 350px;
+        height: 1225px;
+        margin-bottom: 50px;
+    }
+
+    .lateralCursos{
+        float: none;
+        margin: auto;
+        width: 350px;
+        height: 400px;
     }
 }
